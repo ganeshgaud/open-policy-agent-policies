@@ -1,0 +1,40 @@
+{
+    "usrdetail": {
+        "role_assignmets": [ 
+            {
+                "type":"admin",
+                "displayname" : "superadmin",
+                "id":"001",
+                "audience":"app://www.example.com/e123/dev",
+                "actions":[
+                    "list",
+                    "get",
+                    "update",
+                    "delete"
+                    ]   
+            },
+            {
+                "type":"user",
+                "displayname" : "resourceowner",
+                "id":"002",
+                "audience":"app://www.example.com/e123/dev",
+                "actions":[
+                    "list",
+                    "get",
+                    "update"
+                ]   
+            },
+            {
+                "type":"administrator",
+                "displayname" : "rgadmin",
+                "id":"003",
+                "audience":"app://www.example.com/e123/dev",
+                "actiions":[
+                    "list",
+                    "get"
+                ]   
+            }
+                
+        ]
+    }
+}
